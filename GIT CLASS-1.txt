@@ -1,0 +1,96 @@
+GIT CLASS-1
+GLOBAL INFORMATION TRACKER
+WORKING DIRECTORY:
+STAGING AREA:
+REPOSITORY:
+Git is used to track the fi les.
+It will maintain multiple versions of the same fi le.
+It is platform-independent.
+It is free and open-source.
+They can handle larger projects effi ciently.
+It is 3rd generation of vcs.
+it is written on c programming
+it came on the year 2005
+In this stage git is only aware of having fi les in the project.
+It will not track these fi les until we commit those fi les.
+The staging area is like a rough draft space, it's where you can git add the version of a fi le or multiple fi les that you want to save in your next commit.
+In other words, in the next version of your project.
+Repository in Git is considered as your project folder.
+A repository has all the project-related data.
+It contains the collection of the fi les and also history of changes made to those fi les.
+TYPES OF REPOSITORIES:
+LOCAL REPO:
+The Local Repository is everything in your .git directory. Mainly what you will see in your Local Repository are all of your checkpoints or commits. It is the area that saves everything (so don’t delete it).
+REMOTE REPO:
+The remote repository is a Git repository that is stored on some remote computer.
+GIT ALTERNATIVES:
+GIT WORK FLOW:
+GIT LAB
+SVN
+BIT BUCKET
+P4
+STASH
+HELIX
+TO INSTALL GIT
+:
+yum install git -y
+yum = Yellowdog Updater Modifi er
+It is used to update, install or uninstall the packages
+To check the version:
+here rpm : redhat package management
+-qa : query/verify all packages
+To Initialise a git
+:
+git init .
+Here init means initialise
+1.
+git --version
+2.
+git -v
+3.
+rpm -qa git
+. represents present working directory
+when we initialise the git, .git folder will gets created which contains some fi les which relates to git.
+TRACK & COMMIT A FILE:
+TRACK & COMMIT MULTIPLE FILES
+TRACK & COMMIT ALL FILES
+GIT LOG COMMANDS:
+GIT SHOW COMMAND:
+GIT CONFIG:
+Create a fi le :
+touch aws
+Track a fi le :
+git add aws
+To check the status :
+git status
+To commit the fi le :
+git commit -m “commit message” fi lename
+To track multiple fi les :
+git add fi le1 fi le2 fi le3
+To commit multiple fi les :
+git commit -m “commit message” fi le1 fi le2 fi le3
+To track all fi les :
+git add *
+To track all fi les including hidden fi les:
+git add .
+To commit all fi les :
+git commit -m “commit message” .
+Here dot (.) represents all the fi les which are present in staging area
+To see the history of fi les :
+git log
+To see latest 2 commits :
+git log -2
+To see all commits-ids and messages :
+git log --oneline
+To see all full commits-ids and messages :
+git log --pretty=oneline
+To get the commit details along with fi lenames :
+git show commit-id --name-only
+To get the commit details along with the changes in fi lenames :
+git show commit-id
+To get the commit details along with the changes in fi les & stats :
+git show commit-id --stat
+To confi g username :
+git confi g user.name “username”
+To confi g user email :
+git confi g user.email “email”
