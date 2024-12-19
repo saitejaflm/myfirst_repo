@@ -1,0 +1,12 @@
+
+ create mode 100644 GIT CLASS-1.txt
+[root@ip-172-31-27-157 devops]# ll
+total 12
+-rw-r--r-- 1 root root   42 Dec 18 17:41 app.java
+-rw-r--r-- 1 root root 3078 Dec 18 17:46 GIT CLASS-1.txt
+-rw-r--r-- 1 root root   43 Dec 18 17:35 index.html
+[root@ip-172-31-27-157 devops]# cat GIT CLASS-1.txt
+cat: GIT: No such file or directory
+cat: CLASS-1.txt: No such file or directory
+[root@ip-172-31-27-157 devops]#
+[root@ip-172-31-27-157 devops]#
